@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+    <property>
+        <name>supersql.user.usernam</name>
+        <value>zilongzhang</value>
+    </property>
+
+    <property>
+        <name>supersql.user.smk</name>
+        <value>OWMzZjNlNjE2OTI3ZmZhYjY2NjJkYjc5NTJhODFjNDE5MGNjOGNiNzMwMzAzMDMw</value>
+    </property>
+
+    <property>
+        <name>supersql.server.url</name>
+        <value>jdbc:avatica:remote:url=http://ss-qe-supersql-pcg:8081</value>
+    </property>
+
+    <property>
+        <name>supersql.service.name</name>
+        <value>supersql</value>
+    </property>
+</properties>
