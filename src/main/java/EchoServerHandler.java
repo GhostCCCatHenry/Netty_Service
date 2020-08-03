@@ -102,11 +102,7 @@ public class EchoServerHandler extends ChannelInboundHandlerAdapter {
 
     private static String generateAuth() {
         try {
-            Authentication authentication;
-            SecureClient secureClient = SecureClientFactory.generate("zilongzhang", LocalKeyManager.generateByDefaultKey("OWMzZjNlNjE2OTI3ZmZhYjY2NjJkYjc5NTJhODFjNDE5MGNjOGNiNzMwMzAzMDMw"));
-            String SERVICE = "supersql";
-            authentication = secureClient.getAuthentication(ServiceTarget.valueOf(SERVICE));
-            return authentication.flat();
+//Auth code
         } catch (Exception e) {
             e.printStackTrace();
         }
