@@ -184,10 +184,7 @@ public class EchoServerHandler extends ChannelInboundHandlerAdapter {
         public void run() {
 
 //          String supersqlServer = args[1];
-            String url = "jdbc:avatica:remote:url=http://ss-qe-supersql-pcg:8081";
-//            String url = "jdbc:mysql://127.0.0.1:3306/db1?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC" ;
-//            String username = "root";
-//            String password = "123456";
+            String url = "jdbc:avatica:remote:url=http://ccc";
             Connection conn = null;
             Statement st = null;
             ResultSet rs = null;
